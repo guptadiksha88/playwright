@@ -1,0 +1,25 @@
+{
+  "name": "playwrightassignment",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test:ui": "playwright test --ui",
+    "install:browsers": "playwright install"
+  },
+  "keywords": [],
+  "author": "Diksha Gupta",
+  "license": "ISC",
+  "description": "Automated test suite for SauceDemo website",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.2.0"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.54.2"
+  }
+}
